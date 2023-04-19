@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #e7e7e7;
+    padding-top: 100px;
+}
+
+header {
+    display: flex;
+    margin-bottom: 40px;
+    align-items: 36px;
+}
+
+header img {
+    height: 36px;
+    margin-right: 16px;
+}
+
+
+header h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 960px; /* limita a tela até 960px*/
+    width: 100%; /* ocupa o maximo do espaço de 960px que foi limitado acima */
+    margin: 0 auto;
+}
+
+form button {
+    font-weight: bold;
+    font-size: 24px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form input {
+    font-size: 24px;
+    background-color: white;
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 8px;
+    display: flex;
+}
+
+form {
+    display: flex;
+    max-width: 800px; /* 650px*/
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 56px;
+}
+
+table th {
+    border-bottom: 2px solid black;
+    padding: 1px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+table img {
+    height: 36px;
+}
+
+table {
+    width: 100%;
+}
+
+table th {
+    border-bottom: 2px solid black;
+    padding: 16px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+table td {
+    text-align: center;
+    font-size: 8px 0;
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.resultado {
+    padding: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    border-radius: 3px;
+}
+
+.reprovado {
+    background-color: red;
+
+}
+
+.aprovado {
+    background-color: green;
+
+}
